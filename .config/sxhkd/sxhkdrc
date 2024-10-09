@@ -4,6 +4,12 @@ super + Return
 # Запуск rofi
 super + @space
 	rofi -show drun
+# Скриншот окна
+super + Print
+  scrot -u ~/images/screenshots/%y%m%d%H%M%S.png
+# Скриншот экрана
+Print
+  scrot ~/images/screenshots/%y%m%d%H%M%S.png
 # Перезагрузка sxhkd
 super + Escape
 	pkill -USR1 -x sxhkd
