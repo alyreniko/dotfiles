@@ -1,11 +1,15 @@
 #! /bin/sh
 
 pgrep -x sxhkd > /dev/null || sxhkd &
+
+bspc monitor -d ○ ○ ○ ○ ○
+
+polybar &
 feh --bg-scale ~/.config/wallpapers/pg3.png &
-picom & polybar &
+picom &
 setxkbmap -option 'grp:alt_shift_toggle' -layout us,ru &
 libinput-gestures
-bspc monitor -d ○ ○ ○ ○ ○
+
 
 bspc config border_width         2
 bspc config window_gap          12
