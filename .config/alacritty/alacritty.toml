@@ -1,0 +1,26 @@
+[colors]
+
+[font]
+normal = { family = "Hack Nerd Font", style = "Regular" }
+bold = { family = "Hack Nerd Font", style = "Bold" }
+italic = { family = "Hack Nerd Font", style = "Italic" }
+bold_italic = { family = "Hack Nerd Font", style = "Bold Italic" }
+size = 12.0
+
+
+[window]
+padding = { x = 10, y = 10 }
+decorations = "Full"
+# opacity = 0.95
+blur = true
+title = "Console"
+decorations_theme_variant = "Dark"
+
+[colors.primary]
+background = '#373d35' # Тёмно-зелёный фон, гармонирующий с темой GNOME
+# foreground = '#e6e6e6'
+
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/monokai.toml"
+]
