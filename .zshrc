@@ -9,3 +9,5 @@ plugins=(git z dotenv zsh-syntax-highlighting zsh-autosuggestions thefuck)
 source $ZSH/oh-my-zsh.sh
 
 eval $(thefuck --alias)
+
+alias ls="lsd -1 -X"
